@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="img/logo.png" alt="">SCANDI</div>
+        <div class="header__logo"><img src="img/logo.png" alt="">SCANDI</div>
         <nav>
             
-            <ul class="nav-list">
+            <ul class="header__nav-list">
                 <li class="nav-list__item"><a href="" class="nav-list__item__link">О компании</a></li>
                 <li class="nav-list__item"><a href="" class="nav-list__item__link">Портфолио</a></li>
                 <li class="nav-list__item"><a href="" class="nav-list__item__link">Команда</a></li>
@@ -21,15 +21,78 @@
                 <li class="nav-list__item"><a href="" class="nav-list__item__link">Оставить заявку</a></li>
             </ul>
         </nav>
-        <a href="tel:+79818574624" class="phone">+7 (981) 857-46-24</a>
+        <a href="tel:+79818574624" class="header__phone">+7 (981) 857-46-24</a>
     </header>
     <main>
-        <div class="top">
-            <h1 class="top__heading">Поможем сделать вашу квартиру уютнее</h1>
-            <p class="top__text">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
-            <a href="" class="top__button">Оставить заявку</a>
-        </div>
-        
+        <section class="top-wrapper">
+            <div class="top">
+                <h1 class="top__heading">Поможем сделать вашу квартиру уютнее</h1>
+                <p class="top__text">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
+                <a href="" class="top__button">Оставить заявку</a>
+            </div>
+        </section>
+        <section class="about">
+            <h2 class="about__heading">О нас</h2>
+            <div class="about__content">
+                <img class ="about__content__img"src="img/about.jpg" alt="about">
+                <div class="about_text-wrapper">
+                    <p class="about__content__text">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. 
+                    Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.</p>
+                    <p class="about__content__text">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
+                    « Да! Это именно то, что действительно достойно моего дома!»</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="experience">
+            <p class="experience__text"><span>5</span> лет опыта</p>
+            <p class="experience__text"><span>100</span> проектов</p>
+            <p class="experience__text"><span>10</span> наград</p>
+        </section>
+        <section class="works">
+            <h2 class="works__heading">Наши работа</h2>
+            <div class="works__gallery">
+                <div class="works__gallery__image">
+                    <img src="img/works-1.jpg" alt="works-1">
+                    <div class="works__gallery__image-hover">
+                        <h3 class="works__gallery__image-hover__heading">Квартира-студия 30 кв.м.</h3>
+                        <p class="works__gallery__image-hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+                            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                    </div>
+                </div>
+                <div class="works__gallery__image">
+                    <img src="img/works-2.jpg" alt="works-2">
+                    <div class="works__gallery__image-hover">
+                        <h3 class="works__gallery__image-hover__heading">Квартира-студия 30 кв.м.</h3>
+                        <p class="works__gallery__image-hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+                            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                    </div>
+                </div>
+                <div class="works__gallery__image">
+                    <img src="img/works-3.jpg" alt="works-3">
+                    <div class="works__gallery__image-hover">
+                        <h3 class="works__gallery__image-hover__heading">Квартира-студия 30 кв.м.</h3>
+                        <p class="works__gallery__image-hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+                            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                    </div>
+                </div>
+                <div class="works__gallery__image">
+                    <img src="img/works-4.jpg" alt="works-4">
+                    <div class="works__gallery__image-hover">
+                        <h3 class="works__gallery__image-hover__heading">Квартира-студия 30 кв.м.</h3>
+                        <p class="works__gallery__image-hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+                            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="works__more">
+                <a class="works__more__text" href="#">Смотреть ещё
+                <svg width="61" height="16" viewBox="0 0 61 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z" fill="#533738"/>
+                </svg>     </a>            
+            </div>
+        </section>
     </main>
     <footer>
 
