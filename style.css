@@ -224,3 +224,55 @@ a:visited:hover{
 .works__gallery__image:hover .works__gallery__image-hover{
     z-index: 1;
 }
+
+.team{
+    background-color: #E2C4BA;
+    height: 1000px;
+}
+
+.team__heading{
+    text-align: center;
+    padding:50px 0;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.team__members{
+    display: flex;
+    justify-content: space-between;
+    width:1040px;
+    margin: 0 auto;
+}
+.team__members__card{
+    width: 320px;
+}
+.team__members__card__photo{
+    height: 250px;
+}
+.team__members__card__text{
+    line-height:30px;
+    
+}
+.team__how{
+    display:flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.team__how__card{
+    width: 285px;
+    text-align: center;
+    line-height: 30px;
+}
+.team__how__card__number{
+    font-size: 30px;
+    color:white;
+    background-color: #8D7370;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin:0 auto;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
