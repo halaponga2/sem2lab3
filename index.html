@@ -13,12 +13,12 @@
         <nav>
             
             <ul class="header__nav-list">
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">О компании</a></li>
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">Портфолио</a></li>
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">Команда</a></li>
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">Как мы работаем</a></li>
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">Отзывы клиентов</a></li>
-                <li class="nav-list__item"><a href="" class="nav-list__item__link">Оставить заявку</a></li>
+                <li class="nav-list__item"><a href="#about" class="nav-list__item__link">О компании</a></li>
+                <li class="nav-list__item"><a href="#works" class="nav-list__item__link">Портфолио</a></li>
+                <li class="nav-list__item"><a href="#team" class="nav-list__item__link">Команда</a></li>
+                <li class="nav-list__item"><a href="#team__how" class="nav-list__item__link">Как мы работаем</a></li>
+                <li class="nav-list__item"><a href="#reviews" class="nav-list__item__link">Отзывы клиентов</a></li>
+                <li class="nav-list__item"><a href="#feedback" class="nav-list__item__link">Оставить заявку</a></li>
             </ul>
         </nav>
         <a href="tel:+79818574624" class="header__phone">+7 (981) 857-46-24</a>
@@ -31,7 +31,7 @@
                 <a href="" class="top__button">Оставить заявку</a>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about__heading">О нас</h2>
             <div class="about__content">
                 <img class ="about__content__img"src="img/about.jpg" alt="about">
@@ -44,12 +44,12 @@
                 
             </div>
         </section>
-        <section class="experience">
+        <section class="experience" id="experience">
             <p class="experience__text"><span>5</span> лет опыта</p>
             <p class="experience__text"><span>100</span> проектов</p>
             <p class="experience__text"><span>10</span> наград</p>
         </section>
-        <section class="works">
+        <section class="works" id="works">
             <h2 class="works__heading">Наши работа</h2>
             <div class="works__gallery">
                 <div class="works__gallery__image">
@@ -93,7 +93,7 @@
                 </svg>     </a>            
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="team">
             <h2 class="team__heading">Команда</h2>
             <div class="team__members">
                 <div class="team__members__card">
@@ -114,8 +114,8 @@
                         как обсутроить дом так, чтобы вам понравилось.</p>
                 </div>
             </div>
-            <h2 class="team__heading">Как мы работаем</h2>
-            <div class="team__how">
+            <h2 class="team__heading" id="team__how">Как мы работаем</h2>
+            <div class="team__how" >
                 <div class="team__how__card">
                     <p class="team__how__card__number">1</p>
                     <p class="team__how__card__text">Знакомимся, выезжаем
@@ -138,9 +138,43 @@
                 </div>
             </div>
         </section>
+        <section class="reviews" id="reviews">
+            <h2 class="reviews__heading">Отзывы</h2>
+            <div class="reviews__container">
+                <button class="reviews__container__button reviews__container__button_reversed"><svg fill="none" height="16" viewBox="0 0 33 16" width="33" xmlns="http://www.w3.org/2000/svg"><path d="m32.7071 8.70711c.3905-.39053.3905-1.02369 0-1.41422l-6.364-6.363958c-.3905-.390524-1.0236-.390524-1.4142 0-.3905.390528-.3905 1.023688 0 1.414218l5.6569 5.65685-5.6569 5.6569c-.3905.3905-.3905 1.0236 0 1.4142.3906.3905 1.0237.3905 1.4142 0zm-32.7071.29289h32v-2h-32z" fill="#f5f2ed"/></svg></button>
+                <div class="reviews__container__text">
+                    <p >«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
+                    <p>Работа шла быстро, было очень приятно общаться и взаимодествовайть
+                    с сотрудниками. Не ожидала, что это будет так легко!</p>
+                    <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                    <p class="reviews__container__text__author">Анна Беловская</p>
+                </div>
+                <img class="reviews__container__image" src="img/review-1.jpg" alt="review-1">
+                <img class="reviews__container__image" src="img/review-2.jpg" alt="review-2">
+                <button class="reviews__container__button"><svg fill="none" height="16" viewBox="0 0 33 16" width="33" xmlns="http://www.w3.org/2000/svg"><path d="m32.7071 8.70711c.3905-.39053.3905-1.02369 0-1.41422l-6.364-6.363958c-.3905-.390524-1.0236-.390524-1.4142 0-.3905.390528-.3905 1.023688 0 1.414218l5.6569 5.65685-5.6569 5.6569c-.3905.3905-.3905 1.0236 0 1.4142.3906.3905 1.0237.3905 1.4142 0zm-32.7071.29289h32v-2h-32z" fill="#f5f2ed"/></svg></button>
+
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="feedback__container">
+                <div class="feedback__container__text">
+                    <h2 class="feedback__container__text__heading">Оставить заявку</h2>
+                    <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+                    <form class="feedback__container__text__form" action="#">
+                        <input class="feedback__container__text__form__input" type="text" id="name" placeholder="Ваше имя">
+                        <input class="feedback__container__text__form__input" type="tel" id="phone" placeholder="Введите телефон">
+                        <button class="feedback__container__text__form__button" type="submit">Оставить заявку</button>
+                    </form>
+                </div>
+                <img class="feedback__container__map"src="img/map.jpg" alt="map">
+            </div>
+            
+        </section>
     </main>
     <footer>
-
+        <a href="tel:+79818574624" class="footer__phone">+7 (981) 857-46-24</a>
+        <p class="footer__adress">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+        <p class="footer__copyright">ИП Королёва А.А.</p>
     </footer>
     
 </body>
