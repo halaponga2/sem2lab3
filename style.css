@@ -296,7 +296,6 @@ a:visited:hover{
     margin:0 auto;
     width: fit-content;
     column-gap: 30px;
-    row-gap:5px;
 }
 
 .reviews__container__button{
